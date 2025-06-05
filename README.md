@@ -15,6 +15,9 @@ Here is a preview of the Task Manager App UI:
 
 <p align="center">
   <img src="./screenshot/image.png" width="200"  alt="Screenshot">
+  <img src="./screenshot/image2.png" width="200"  alt="Screenshot">
+  <img src="./screenshot/image3.png" width="200"  alt="Screenshot">
+  <img src="./screenshot/image4.png" width="200"  alt="Screenshot">
 </p>
 
 ### ✅ Backend (Node.js + Express)
