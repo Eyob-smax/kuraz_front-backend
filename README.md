@@ -13,9 +13,9 @@ I buid both frontend and backend functionalities for this task manager web app.
 
 Here is a preview of the Task Manager App UI:
 
-![Task Manager Screenshot](./screenshot/image.png.png)
-![Task Manager Screenshot](./screenshot/image2.png.png)
-![Task Manager Screenshot](./screenshot/image3.png.png)
+<p align="center">
+  <img src="./screenshot/image.png" alt="Screenshot" width="600">
+</p>
 
 ### ✅ Backend (Node.js + Express)
 
