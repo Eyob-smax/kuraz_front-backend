@@ -1,4 +1,4 @@
-# Fullstack Task Manager App (<b>See the screenshots down below</b>)
+# Fullstack(backend+frontend) Task Manager App (<b>See screenshots👇</b>)
 
 👋 Hey! So, funny story — <b>I forgot which role I applied for (frontend or backend)</b>, so I built **both** sides just in case, you know 😅.
 This project includes a **Node.js + Express backend** and a **React frontend**, covering all the **required** and even some of the **additional** requirements like this **README.md** and some **validation** for input file and .
