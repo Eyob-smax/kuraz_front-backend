@@ -1,13 +1,24 @@
 # 🧠 Fullstack Task Manager App
 
-> 👋 Hey! So, funny story — I forgot which role I applied for (frontend or backend), so I went ahead and built **both** sides just in case! 😅  
-> This project includes a **Node.js + Express backend** and a **React frontend**, covering all the **required** and even some of the **optional** features listed in the task.
+👋 Hey! So, funny story — I forgot which role I applied for (frontend or backend), so I built **both** sides just in case, you know 😅.
+This project includes a **Node.js + Express backend** and a **React frontend**, covering all the **required** and even some of the **additional** requirements like this **README.md** and some **validation** for input file and .
 
 ---
 
 ## 🔧 What I Built
 
+I buid both frontend and backend functionalities for this task manager web app.
+
+## 📸 Screenshot
+
+Here is a preview of the Task Manager App UI:
+
+![Task Manager Screenshot](./screenshot/image.png.png)
+![Task Manager Screenshot](./screenshot/image2.png.png)
+![Task Manager Screenshot](./screenshot/image3.png.png)
+
 ### ✅ Backend (Node.js + Express)
+
 - RESTful API endpoints to **Create, Read, Update, and Delete** tasks.
 - Each task has:
   - `task_id`
@@ -18,18 +29,16 @@
   - `due_date`
 - Basic validation (e.g. making sure title/description aren't empty).
 - Edit task functionality.
-- Mark task as done.
 - Simple error handling and clear response messages.
 - CORS enabled for frontend integration.
 
 ### ✅ Frontend (React)
-- Fetches tasks from the backend and displays them.
-- Task card UI using Tailwind CSS (light and beginner-friendly).
+
+- Task card UI using **Tailwind** CSS..
 - Users can:
-  - **Add new tasks** (with validation)
+  - **Add new tasks**
   - **Edit existing tasks**
   - **Delete tasks**
-  - **Mark tasks as done**
   - **Filter by category**
   - **Search tasks by title or description**
 - A modal is used to add and edit tasks.
@@ -40,11 +49,12 @@
 
 ```bash
 ├── backend/
-│   ├── index.js          # Express server
+│   ├── server.js          # Express server
 │   └── task.js           # Fake DB (task array)
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── components/   # Task cards, modal, etc.
 │   │   ├── pages/        # Header, Main, Category UI
-│   │   └── App.js        # Main app logic
+│   │   └── App.jsx        # Main app logic
+```
