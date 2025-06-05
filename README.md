@@ -13,7 +13,7 @@ I buid both frontend and backend functionalities for this task manager web app.
 
 Here is a preview of the Task Manager App UI:
 
-<p align="center">
+<p align="center" justify="center">
   <img src="./screenshot/image.png" width="200"  alt="Screenshot">
   <img src="./screenshot/image2.png" width="200"  alt="Screenshot">
   <img src="./screenshot/image3.png" width="200"  alt="Screenshot">
