@@ -48,10 +48,13 @@ export default function App() {
 
   const filtered = tasks.filter((task) => {
     const matchesCat = category === "All" || task.category === category;
-    const matchesSearch = task.title
+    const matchesTitle = task.title
       .toLowerCase()
       .includes(search.toLowerCase());
-    return matchesCat && matchesSearch;
+    const matchesSearchDesc = task.desc
+      .toLowerCase()
+      .includes(search.toLowerCase());
+    return (matchesCat && matchesSearchDesc) || matchesTitle;
   });
 
   const addTask = (newTask) => {
